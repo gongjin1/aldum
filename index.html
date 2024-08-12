@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>album</title>
+
+    <style>
+
+        .total {
+            width: 430px;
+            margin: auto;
+        }
+
+        #aldum {
+            font-size: 50px;
+            font-weight: 900;
+            background: linear-gradient(to right, rgb(247, 247, 247), orange);
+            -webkit-background-clip: text;
+            color: transparent;
+            margin: 0;
+        }
+
+        /* <picture> */
+        .pic {
+            width: 430px;
+            /* 块级元素，定义碰撞 */
+            height: 626px;
+        }
+
+        #pic1-1,
+        #pic1-2,
+        #pic1-3,
+        #pic2-1,
+        #pic2-2 {
+            width: 200px;
+            /* border: 1px solid red; */
+            float: left;
+        }
+
+        #pic2-1,
+        #pic2-2 {
+            margin-left: 5px;
+        }
+
+        #pic1-2 {
+            margin-top: -206px;
+        }
+
+        #pic1-3 {
+            margin-left: 0px;
+        }
+
+        /* </picture> */
+    </style>
+
+</head>
+
+<body style="background-image: url(https://s2.loli.net/2024/08/12/v5gIFpz4WrK7xeG.jpg);">
+
+    <div class="total">
+        <div>
+            <span id="aldum">ALDUM:</span>
+        </div>
+        <!-- pic -->
+        <div class="pic">
+            <div id="pic1-1">
+                <img src="https://s2.loli.net/2024/08/06/GJhSwzxFqPHfo6M.jpg" alt="1-1" width="200px">
+            </div>
+            <div id="pic2-1">
+                <img src="https://s2.loli.net/2024/08/12/3LixrcPFB9qQl1m.jpg" alt="2-1" width="200px" height="414px">
+            </div>
+            <div id="pic1-2">
+                <img src="https://s2.loli.net/2024/08/06/kfu4OcJli1YaXAh.jpg" alt="1-2" width="200px">
+            </div>
+            <div id="pic1-3">
+                <img src="https://s2.loli.net/2024/08/06/cQxLwCme96tpSiA.jpg" alt="1-3" width="200px">
+            </div>
+            <div id="pic2-2">
+                <img src="https://s2.loli.net/2024/08/06/bimLjKNYAZnhsf9.jpg" alt="2-2" width="200px">
+            </div>
+        </div>
+        <!-- pic -->
+    </div>
+</body>
+
+</html>
